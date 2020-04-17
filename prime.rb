@@ -15,11 +15,10 @@ def prime?(integer)
     time = []
     counter = integer - 1
     while counter > 0
-      integer/counter
       if(integer % counter == 0)
         time << counter
-        counter -= 1
       end
+      counter -=1
     end
     if time.length == 1
       return true
