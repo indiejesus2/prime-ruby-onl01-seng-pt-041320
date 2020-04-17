@@ -16,7 +16,7 @@ def prime?(integer)
     counter = integer - 1
     while counter != 0
       integer/counter
-      if integer % counter == 0
+      if(integer % counter == 0)
         time << counter
         counter -= 1
       end
