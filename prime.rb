@@ -14,7 +14,7 @@
 def prime?(integer)
     time = []
     counter = integer - 1
-    while counter < 0
+    while counter > 0
       integer/counter
       if(integer % counter == 0)
         time << counter
