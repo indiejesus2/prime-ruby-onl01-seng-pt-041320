@@ -28,3 +28,4 @@ def prime?(integer)
 end
 
 prime?(0)
+prime?(1)
