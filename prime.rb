@@ -26,3 +26,5 @@ def prime?(integer)
       return false
     end
 end
+
+prime?(0)
